@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+          background-image: url('https://wallpapers.com/images/hd/weather-background-jhebw9hr68asyosw.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+          color: white;
+        }
+
+        .la,p {
+            color: white;
+            font-size: large;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        h1 {
+            color: white;
+            font-size: xx-large;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 5px;
+            padding: 5px;
+            margin-top: 10px;
+        }
+
+        input {
+            border-radius: 5px;
+            border-color: antiquewhite;
+            padding: 5px;
+        }
+
+        button {
+            border-radius: 5px;
+            border-color: gainsboro;
+            color: white;
+            background-color: gold;
+            text-shadow: 2px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+</head>
+<body>
+    <h1>Weather Master</h1>
+    <p>Get current weather condition of your city! </p>
+    <br>
+    <br>
+    <form action="/" method="post">
+        <label class="la" for="cityInput">Enter city: </label>
+        <input id="cityInput" name="cityName" type = "text" placeholder="e.g. London">
+        <button type="submit">Go</button>
+
+    </form>
+    <script src="script.js" charset="UTF-8"></script>
+</body>
+</html>
+
+
